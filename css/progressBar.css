@@ -1,0 +1,51 @@
+progress {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  progress {
+      border: 0;
+      height: 20px;
+      border-radius: 20px;
+      width: 100%;
+      margin-top: 10px;
+      display: none;
+  }
+  progress::-webkit-progress-bar {
+      border: 0;
+      height: 20px;
+      border-radius: 20px;
+  }
+  progress::-webkit-progress-value {
+      border: 0;
+      height: 20px;
+      border-radius: 20px;
+  }
+  progress::-moz-progress-bar {
+      border: 0;
+      height: 20px;
+      border-radius: 20px;
+  }
+
+  progress::-webkit-progress-bar {background-color: #f0f0f0; width: 100%;}
+  progress::-moz-progress-bar {background-color: #f0f0f0; width: 100%;}
+
+  progress[value="0"]::-webkit-progress-value {background-color: #aaa !important;}
+  progress[value="25"]::-webkit-progress-value {background-color: red !important;}
+  progress[value="50"]::-webkit-progress-value {background-color: orange !important;}
+  progress[value="75"]::-webkit-progress-value {background-color: yellow !important;}
+  progress[value="100"]::-webkit-progress-value {background-color: green !important;}
+
+  progress[value="0"]::-moz-progress-value { background: #aaa !important;}
+  progress[value="25"]::-moz-progress-value { background: red !important;}
+  progress[value="50"]::-moz-progress-value { background: orange !important;}
+  progress[value="75"]::-moz-progress-value { background: yellow !important;}
+  progress[value="100"]::-moz-progress-value { background: green !important;}
+
+  #password-strength-text{
+      color: #3d3d3d;
+      font-size: 15px;
+      font-weight: bold;
+  }
