@@ -29,7 +29,7 @@ $(document).ready(function () {
         case '3':
             $('.tesisForm').hide();
             $('.articleForm').hide();
-            $('projectForm').show();
+            $('.projectForm').show();
             break;
 
     }
