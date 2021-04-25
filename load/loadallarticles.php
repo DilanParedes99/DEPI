@@ -1,10 +1,13 @@
 <?php  
 
 //$sql = "SELECT titulo,autor,asesor,fecha,nivel,institucion,departamento,abstract,usuario,tesis.idTesis FROM docs LEFT JOIN tesis ON tesis.idTesis=docs.idTesis";
-$sql = "SELECT titulo,autor,revista,volumen,abstract,doi,fecha,articulos.idDoc FROM docs INNER JOIN articulos ON articulos.idDoc=docs.idDoc";
-$result = mysqli_query($conn,$sql);
+//$sql = "SELECT titulo,autor,revista,volumen,abstract,doi,fecha,articulos.idDoc FROM docs INNER JOIN articulos ON articulos.idDoc=docs.idDoc";
+//$result = mysqli_query($conn,$sql);
 
-while($row = mysqli_fetch_array($result))
+$query = "SELECT * FROM `docs-autores` INNER JOIN autores on `docs-autores`.idAutor = `autores`.idAutor INNER JOIN articulos ON `docs-autores`.`idDoc` = articulos.idDoc";
+$result2 = mysqli_query($conn,$query);
+
+while($row = mysqli_fetch_array($result2))
 {
 	$IdArticle = $row['idDoc'];
 	?>
@@ -21,7 +24,10 @@ while($row = mysqli_fetch_array($result))
 					<span style="word-wrap:break-word">Tipo: artículo</span>
 				</div>
 				<div class="col-xl-4 col-12">
-					<span style="word-wrap:break-word">Autor: <?= $row['autor'] ?></span>
+					<span style="word-wrap:break-word">Autor: <?php
+                        $name = $row['nombre']." ".$row['apellidos'];
+                        echo $name;
+                        ?></span>
 				</div>
 				<div class="col-xl-4 col-12">
 					<span style="word-wrap:break-word">Revista: <?= $row['revista'] ?></span>
