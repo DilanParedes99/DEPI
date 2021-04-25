@@ -15,7 +15,7 @@
 	session_start();	
 	require 'includes/dbconnection.php';
 	include "includes/navbar.php";	
-
+// comentar
 	$Id = mysqli_real_escape_string($conn, $_GET['id']);
 	$sql = "SELECT titulo,autor,revista,volumen,abstract,doi,fecha,url,articulos.idDoc FROM docs INNER JOIN articulos ON articulos.idDoc=docs.idDoc WHERE articulos.idDoc = '$Id'";
 	$resultado = mysqli_query($conn,$sql); 	
@@ -49,8 +49,8 @@
 
 					<div class="row px-1">
 						<div class="col-xl-12 align-self-center">
-							<?php  				
-							echo '<p class="text-justify text-truncate" id = "autor" style="word-wrap:break-word">'.$row['autor'].'</p>';			
+							<?php  											
+							include 'load/loadauthors.php';
 							?>
 						</div>	
 					</div>
