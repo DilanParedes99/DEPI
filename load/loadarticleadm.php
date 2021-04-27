@@ -1,7 +1,8 @@
 <?php  
 
 $Id = mysqli_real_escape_string($conn, $_SESSION['User']);
-$sql = "SELECT titulo,autor,revista,volumen,abstract,doi,fecha,articulos.idDoc FROM docs INNER JOIN articulos ON articulos.idDoc=docs.idDoc WHERE idUsuario = '$Id'";
+//$sql = "SELECT titulo,autor,revista,volumen,abstract,doi,fecha,articulos.idDoc FROM docs INNER JOIN articulos ON articulos.idDoc=docs.idDoc WHERE idUsuario = '$Id'";
+$sql = "SELECT * FROM `docs-autores` INNER JOIN autores on `docs-autores`.idAutor = `autores`.idAutor INNER JOIN articulos ON `docs-autores`.`idDoc` = articulos.idDoc INNER JOIN docs ON docs.idDoc = articulos.idDoc where idUsuario = '$Id'";
 $result = mysqli_query($conn,$sql);
 $uploaded = mysqli_num_rows($result);
 
@@ -21,7 +22,7 @@ if($uploaded != 0)
 				</div>
 				<div class="row">
 					<div class="col-6">
-						<span>Autor: <?= $row['autor'] ?></span>
+						<span>Autor: <?= $row['nombre'] ?>&nbsp;<?= $row['apellidos'] ?></span>
 					</div>
 					<div class="col-6">
 						<span>Fecha: <?= $row['fecha'] ?></span>
