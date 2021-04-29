@@ -6,7 +6,7 @@
         justify-content: space-around;
         display: flex;
         float: none;
-        height: 120px;
+        height: 130px;
     }
 
     .banner img{
@@ -27,7 +27,7 @@
 <!-- First line navbar logos -->
 <nav class="navbar navbar-expand-sm navbar-light">
     <div class="navbar-collapse collapsed banner">
-     <img src="./img/banner_mejorado.png" class="img-fluid" alt="banner">
+     <img src="./img/banner_nuevo_2.png" class="img-fluid" alt="banner">
  </div>
 </nav>
 <!-- Second line of navbar -->
@@ -39,8 +39,8 @@
         <br>
         <ul class="navbar-nav mr-auto text-center w-100">
             <li class="nav-item w-100">
-                <a class="nav-link" href="http://icti.michoacan.gob.mx/">
-                    <img src="./img/icti.png" alt="ICTI" style="max-height: 55px;">
+                <a class="nav-link" href="https://www.sedeam.com.mx/">
+                    <img src="./img/sedeam_2.png" alt="ICTI" style="max-height: 55px;">
                 </a>
             </li>
         </ul>
@@ -75,7 +75,7 @@
     <div class="navbar-collapse collapse w-100 dual-collapse2" id="navbarNav">
         <ul class="navbar-nav mr-auto text-center w-100">
             <li class="nav-item w-100">
-                <a class="nav-link" href="./negocios.php">Negocios Locales</a>
+                <a class="nav-link" href="./negocios.php">Aliados Estratégicos</a>
             </li>
         </ul>
     </div>
