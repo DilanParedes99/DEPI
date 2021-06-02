@@ -46,7 +46,7 @@ else
 			</div>
 		</div>
 		<div class="col-sm-8 col-12 mt-5">
-			<p style="font-size: 30px; text-align: justify;">Aún no cuentas con proyectos subidos en tu perfil. <br> <a href="DocUpload.php?tipo=proyecto">¡Sube uno!</a></p>
+			<p style="font-size: 30px; text-align: justify;">Aún no cuentas con proyectos adjuntados en tu perfil. <br> <a href="DocUpload.php?tipo=proyecto">¡Sube uno!</a></p>
 		</div>
 	</div>
 	<?php

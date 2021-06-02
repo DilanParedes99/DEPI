@@ -118,7 +118,7 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-sm">
-                            <label for="inputDateTes">Año de realizacion</label>
+                            <label for="inputDateTes">Año de Publicación</label>
                             <input type="number" class="form-control" id="inputDateTes">
                         </div>
                         <div class="form-group col">
@@ -143,7 +143,7 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col">
-                            <label for="inputAbstractTes">Palabras claves</label>
+                            <label for="inputAbstractTes">Resumen/Abstract</label>
                             <textarea class="form-control" style="resize: none" name="" id="inputAbstractTes" cols="30" rows="8"></textarea>
                         </div>
                     </div>
@@ -193,13 +193,13 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-sm">
-                            <label for="inputDateArt">Fecha de realizacion</label>
+                            <label for="inputDateArt">Fecha de Publicación</label>
                             <input type="date" class="form-control" id="inputDateArt">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col">
-                            <label for="inputAbstractArt">Palabras clave</label>
+                            <label for="inputAbstractArt">Resumen/Abstract</label>
                             <textarea class="form-control" style="resize: none" id="inputAbstractArt" cols="30" rows="8"></textarea>
                         </div>
                     </div>

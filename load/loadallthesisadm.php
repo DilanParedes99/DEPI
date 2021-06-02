@@ -51,7 +51,7 @@ else
             </div>
         </div>
         <div class="col-sm-8 col-12 mt-5">
-            <p style="font-size: 30px; text-align: justify;">Aún no cuentas con tesis subidas en tu perfil. <br> <a href="DocUpload.php?tipo=tesis">¡Sube uno!</a></p>
+            <p style="font-size: 30px; text-align: justify;">Aun no se cuenta con tesis adjuntadas en tu perfil. <br> <a href="DocUpload.php?tipo=tesis">¡Sube uno!</a></p>
         </div>
     </div>
     <?php
