@@ -41,17 +41,25 @@
             <div class="container mw-100">
                 <div class="row row_mine">
                     <div class="col-sm col_mine sites">
-                        <img src="./img/ITM.jpeg" alt="tecnm" class="img-fluid" style="height: 200px">
+                        <img src="./img/icti3.png" alt="icti" class="img-fluid" style="height: 200px">
                     </div>
                     <div class="col-sm col_mine sites">
-                        <img src="./img/UMSNH.jpeg" alt="sep" class="img-fluid" style="height: 200px">
+                        <img src="./img/sedeamlab.png" alt="sedeam" class="img-fluid" style="height: 200px">
                     </div>
                     <div class="col-sm col_mine sites">
-                        <img src="./img/Rossel.jpeg" alt="itm" class="img-fluid" style="height: 200px">
+                         <img src="./img/ITM.jpeg" alt="tecnm" class="img-fluid" style="height: 200px">
+                    </div>  
+                </div> <br>
+                <div class="row row_mine">
+                    <div class="col-sm col_mine sites">
+                        <img src="./img/itcoalcoman.png" alt="coalcoman" class="img-fluid" style="height: 200px">
                     </div>
                     <div class="col-sm col_mine sites">
-                        <img src="./img/ClusterTim.jpeg" alt="pan" class="img-fluid" style="height: 200px">
+                        <img src="./img/ituruapan.png" alt="uruapan" class="img-fluid" style="height: 200px">
                     </div>
+                    <div class="col-sm col_mine sites">
+                        <img src="./img/itvm.png" alt="itvm" class="img-fluid" style="height: 200px">
+                    </div>  
                 </div>
             </div>
             </center>

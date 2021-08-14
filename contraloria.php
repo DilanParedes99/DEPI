@@ -7,6 +7,8 @@
     <title>NEGOCIOS LOCALES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">  
     <script src="https://kit.fontawesome.com/47a5d5df4f.js" crossorigin="anonymous"></script>
 
 	<!-- CSS -->
@@ -36,27 +38,31 @@
 	  <div class='container mx-0'>
 		<div class='collapse navbar-collapse mb-2'>
 			<ul class='navbar-nav m-auto align-items-center'>
-				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_PRODEP accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px;">
+				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_PRODEP accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px; font-family: 'Montserrat', sans-serif;">
 					PRODEP
 				</li>
-				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Contraloria accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px;">
+				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Contraloria accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px; font-family: 'Montserrat', sans-serif;">
 					Contraloría Social
 				</li>
-				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Documentos accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px;">
+				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Documentos accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px; font-family: 'Montserrat', sans-serif;">
 					Documentos Normativos
 				</li>
-				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Quejas accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px;">
+				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Informes accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px; font-family: 'Montserrat', sans-serif;">
+					Informes Trimestrales
+				</li>
+				<li class='nav-item bg-secundario mr-1 text-center text-lg-left text-white font-weight-bold px-2 btn_Quejas accion smobile' style="cursor:pointer; padding: 10px 5px; border-radius: 5px; font-family: 'Montserrat', sans-serif;">
 					Quejas, Denuncias o Petición
 				</li>
 			</ul>
 		</div>
 	  </div>
 	</nav>
+
     <!-- PRODEP -->
     <div class='container mx-0 m-md-auto collapse show Ocultar Mostrar_PRODEP' id='PRODEP' style="margin-bottom: 200px;">
 		<div class='row justify-content-center mx-4 mx-sm-0'>
 			
-			<div class='col-12 h4 text-left text-white font-weight-bold mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo1' aria-expanded='false' style="cursor:pointer;">
+			<div class='col-12 h4 text-left text-white font-weight-bold mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo1' aria-expanded='false' style="cursor:pointer; font-family: 'Montserrat', sans-serif;">
 				<span class='icon-menu'></span>
 				PRODEP
 			</div>
@@ -193,14 +199,14 @@
 				
 				<div style="cursor:pointer;" class='col-12 h6 col-12 text-dark  mt-2 mt-md-0 py-1 bg-light text-justify collapse' id='SDTB'>
 					<ul class="abc h6">
-						<li> Recibir un trato atentento, digno y respetuoso, sin discriminación alguna. </li>
-						<li> Recibir asesoría y apoyo sobre la operación del mismo de manera gratuita. </li>
+						<li> Recibir un trato atentento, digno y respetuoso, sin discriminación alguna. </li> <br/>
+						<li> Recibir asesoría y apoyo sobre la operación del mismo de manera gratuita. </li> <br/>
 						<li> 
 							Tener acceso a la información necesaria de manera clara y oportuna, para resolver sus dudas respecto de las acciones del Programa. 
-						</li>
+						</li> <br/>
 						<li> 
 							Recibir el comunicado por parte de las instancas ejecutoras sobra la asignación del recurso
-						</li>
+						</li> <br/>
 						<li> 
 							Tener la reserva y privacidad de sus datos personales en los términos de lo establecido en la Ley General de Transparencia y Acceso a la Información Pública, la Ley Federal de Transparencia y Acceso a la Información Pública, su Reglamento y demás normativa jurídica aplicable. 
 						</li>
@@ -216,10 +222,10 @@
 					<ul class="abc h6">
 					<li> 
 						Recibir la información correspondiente a las diferentes convocatorias que emite el Programa; y recibir la notificación de los resultados de las solicitudes presentadas por los/as PTC. 
-					</li>
+					</li> <br/>
 					<li> 
 						Recibir la aportación de los recursos para el pago de los apoyos con base en la disponibilidad presupuestal de las Unidades Responsables. 
-					</li>
+					</li> <br/>
 				</ul>
 				</div>
 				
@@ -230,9 +236,9 @@
 				
 				<div class='col-12 h6 col-12 text-dark  mt-2 mt-md-0 py-1 bg-light text-justify collapse' id='DB'>
 					<ul class="abc h6">
-						<li> Recibir la notificación de los resultados de las solicitudes que presenten. </li>
-						<li> Manifestar su inconformidad ante los resultados emitidos a sus solicitudes. </li>
-						<li> Recibir los recursos autorizados de acuerdo a lo establecido en las cartas de liberación de recursos. Con base en la disponibilidad presupuestal de las UR. </li>
+						<li> Recibir la notificación de los resultados de las solicitudes que presenten. </li> <br/>
+						<li> Manifestar su inconformidad ante los resultados emitidos a sus solicitudes. </li> <br/>
+						<li> Recibir los recursos autorizados de acuerdo a lo establecido en las cartas de liberación de recursos. Con base en la disponibilidad presupuestal de las UR. </li> <br/>
 					</ul>
 				</div>
 				
@@ -250,16 +256,16 @@
 					<ul class="abc h6">
 						<li> 
 							Hacer uso de los recursos de acuerdo con los rubros, montos aprobados y disposiciones establecidas en las presentes RO. 
-						</li>
+						</li> <br/>
 						<li> 
 							Cumplir con las actividades comprometidas según el apoyo autorizado (proyectos de investigación o plan de trabajo). 
-						</li>
+						</li> <br/>
 						<li> 
 							Presentar a la DSA y a su IES de adscripción los informes semestrales que reflejen el avance en actividades y ejercicio de los recursos autorizados, considerando los informes a partir de la fecha de notificación de los resultados, así como el informe final del impacto académico logrado con el apoyo recibido, mediante el formato electrónico establecido que se encuentra en el SISUP. 
-						</li>
+						</li> <br/>
 						<li> 
 							Entregar a la IPES de adscripción la evidencia de las actividades realizadas durante el periodo del apoyo durante los primeros 15 días posteriores a la conclusión de la vigencia o bien, al presentar el informe final si el recurso se ejerce antes de este período. 
-						</li>
+						</li> <br/>
 					</ul>
 				</div>
 				
@@ -281,7 +287,7 @@
     <div class='container mx-0 m-md-auto collapse Ocultar Mostrar_Contraloria' style="margin-bottom: 200px;">
 		<div class='row justify-content-center mx-4 mx-sm-0'>
 			
-			<div style="cursor:pointer;" class='col-12 h4 text-left text-white font-weight-bold mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo2' aria-expanded='false'>
+			<div style="cursor:pointer; font-family: 'Montserrat', sans-serif;" class='col-12 h4 text-left text-white font-weight-bold mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo2' aria-expanded='false'>
 				<span class='icon-menu'></span>
 				Contraloría Social del Programa Presupuestario S247
 			</div>
@@ -306,10 +312,10 @@
 					<ul>
 						<li> 
 							Que se difunda la información suficiente, veraz y oportuna sobre la operación del programa. 
-						</li>
+						</li> <br/>
 						<li> 
 							Que los otorgamientos de los apoyos sean con calidad, calidez, eficiente, eficaz, oportuno y de manera transparente. 
-						</li> 
+						</li> <br/>
 						<li> 
 							Que las autoridades competentes brinden atención a las quejas o denuncias, relacionadas al programa.
 						</li>
@@ -343,13 +349,13 @@
 					<ul>
 						<li> 
 							Representar los intereses y actuar como grupo de enlace entre la comunidad, las autoridades locales y autoridades centrales. 
-						</li>
+						</li> <br/>
 						<li>
 							Vigilar el adecuado manejo de los recursos financieros y que cumplan con el objetivo para el que fueron otorgados. 
-						</li>
+						</li> <br/>
 						<li> 
 							Capturar y canalizar las Quejas o Denuncias a las áreas correspondientes. 
-						</li>
+						</li> <br/>
 						<li> 
 							Reportar cualquier anomalía que se presente durante el proceso de la ejecución y culminación de los recursos Financieros. 
 						</li>
@@ -377,7 +383,7 @@
     <div class='container mx-0 m-md-auto collapse Ocultar Mostrar_Documento' style="margin-bottom: 200px;">
 		<div class='row justify-content-center mx-4 mx-sm-0'>
 			
-			<div style="cursor:pointer;" class='col-12 h4 text-left text-white mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo3' aria-expanded='false' id='QDP'>
+			<div style="cursor:pointer; font-family: 'Montserrat', sans-serif;" class='col-12 h4 text-left text-white mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo3' aria-expanded='false' id='QDP'>
 				<span class='icon-menu'></span>
 				Documentos Normativos
 			</div>
@@ -394,25 +400,25 @@
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-pdf text-danger'></span>
 						<a href="doc_contraloria/Lineamientos_CS_28-10-2016.pdf" target="_blank"> 
-							Lineamientos CS 28/10/2016
+							Lineamientos
 						</a>
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-pdf text-danger'></span>
-						<a href="doc_contraloria/Esquema_de_Contraloria_Social_2020.pdf" target="_blank"> 
-							Esquema de Contraloria Social 2020
+						<a href="doc_contraloria/Esquema_de_Contraloria_Social_2021.pdf" target="_blank"> 
+							Esquema de Contraloría Social 2021
 						</a>
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-pdf text-danger'></span>
-						<a href="doc_contraloria/Formato_1_PATCS_CS_2020.pdf" target="_blank"> 
-							Formato 1 PATCS CS 2020
+						<a href="doc_contraloria/Formato_1_PATCS_CS_2021.pdf" target="_blank"> 
+							 Programa Anual de Trabajo de Contraloría Social "PATCS" 2021
 						</a>
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-pdf text-danger'></span>
-						<a href="doc_contraloria/Guia_Contraloria_Social_2020.pdf" target="_blank"> 
-							Guía Contraloria Social 2020
+						<a href="doc_contraloria/Guia_Contraloria_Social_2021.pdf" target="_blank"> 
+							Guía operativa de Contraloría Social 2021
 						</a>
 					</div>
 					
@@ -427,50 +433,110 @@
 					
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-excel text-success'></span>
-						<a href="doc_contraloria/Formato_2_PITCS_CS_2020.xlsx" target="_blank"> 
-							Formato 2 - PITCS CS 2020
+						<a href="doc_contraloria/Formato_2_PITCS_CS_2021.xlsx" target="_blank"> 
+							FORMATO 2 "PITCS" 2021 
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-word text-primary'></span>
 						<a href="doc_contraloria/Formato_3_Acta_de_Registro_de_Comite.docx" target="_blank"> 
-							Formato 3 - Acta de Registro de Comité
+							FORMATO 3 "Acta de Registro de Comité"
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-word text-primary'></span>
 						<a href="doc_contraloria/Formato_4_Minuta_de_Reunion_de_Comite.docx" target="_blank"> 
-							Formato 4 - Minuta de Reunión de Comité
+							FORMATO 4 "Minuta de Reunión del Comité" 
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-word text-primary'></span>
 						<a href="doc_contraloria/Formato_5_Escrito_Libre.docx" target="_blank"> 
-							Formato 5 - Escrito Libre
+							FORMATO 5 "Escrito Libre"
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-excel text-success'></span>
-						<a href="doc_contraloria/Formato_6_Informe_de_Comite_CS_2020.xlsx" target="_blank"> 
-							Formato 6 - Informe de Comité CS 2020
+						<a href="doc_contraloria/Formato_6_Informe_de_Comite_CS_2021.xlsx" target="_blank"> 
+							FORMATO 6 "Informe de Comité de Contraloría Social" 
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-word text-primary'></span>
 						<a href="doc_contraloria/Formato_7_Acta_Sustitucion_de_Integrante_de_Comite.docx" target="_blank"> 
-							Formato 7 - Acta Sustitución de Integrante de Comité
+							FORMATO 7 "Acta Sustitución de Integrante de Comité"
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-word text-primary'></span>
-						<a href="doc_contraloria/Formato_8_Quejas_Denuncias_o_Peticiones.docx" target="_blank"> 
-							Formato 8 - Quejas Denuncias o Peticiones
+						<a href="doc_contraloria/Formato_8_Quejas_Denuncias_Peticiones_o_Irregularidad.docx" target="_blank"> 
+							FORMATO 8 "Queja, Denuncias, Peticiones o Irregularidades"
 						</a> 
 					</div>
 					<div class='w-100 py-1 border-bottom'>
 						<span class='icon-file-excel text-success'></span>
 						<a href="doc_contraloria/Formato_9_Infome_de_Quejas_Denuncias_o_Peticiones.xlsx" target="_blank"> 
-							Formato 9 - Infome de Quejas Denuncias o Peticiones
+							FORMATO 9 "Informe de Queja, Denuncias, Peticiones o Irregularidades"
+						</a> 
+					</div>
+					<div class='w-100 py-1 border-bottom'>
+						<span class='icon-file-excel text-success'></span>
+						<a href="doc_contraloria/Formato_10_Entrega_de_Material_Difusion_y_Capacitacion_Impartidas.xlsx" target="_blank"> 
+							FORMATO 10 "Entrega de Material de Difusión y Capacitación Impartidas" 
+						</a> 
+					</div>
+					<div class='w-100 py-1 border-bottom'>
+						<span class='icon-file-excel text-success'></span>
+						<a href="doc_contraloria/Formato_11_Registro_Integrantes_de_Comites_2021(DIRECTORIO).xlsx" target="_blank"> 
+							FORMATO 11 "Registro de Integrantes de Comités 2021"
+						</a> 
+					</div>
+				</div>
+			
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- Informes -->
+    <div class='container mx-0 m-md-auto collapse Ocultar Mostrar_Informe' style="margin-bottom: 200px; font-family: 'Montserrat', sans-serif;">
+		<div class='row justify-content-center mx-4 mx-sm-0'>
+			
+			<div style="cursor:pointer;" class='col-12 h4 text-left text-white mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo3' aria-expanded='false' id='QDP'>
+				<span class='icon-menu'></span>
+				Informes Trimestrales
+			</div>
+			
+			<div class='col-12 collapse show' id='Grupo3'>
+
+				<div style="cursor:pointer;" class='col-12 h5 text-white mt-2 mt-md-0 py-1 bg-tecnm text-left' data-toggle='collapse' data-target='#documentos_normativos' aria-expanded='false'>
+					<span class='icon-menu'></span>
+					Año 2021
+				</div>
+				
+				<div class='col-12 h6 text-dark  mt-2 mt-md-0 py-1 bg-light text-justify collapse' id='documentos_normativos'>
+					
+					<div class="alert alert-warning">No se ha cargado información.</div>
+
+				</div>
+				
+				<div style="cursor:pointer;" class='col-12 h5 text-white mt-2 mt-md-0 py-1 bg-tecnm text-left' data-toggle='collapse' data-target='#FGP' aria-expanded='false'>
+					<span class='icon-menu'></span>
+					Año 2020
+				</div>
+				
+				<div class='col-12 h6 text-dark  mt-2 mt-md-0 py-1 bg-light text-justify collapse' id='FGP'>
+					
+					<div class='w-100 py-1 border-bottom'>
+						<span class='icon-file-pdf text-danger'></span>
+						<a href="doc_contraloria/Informe_Trimestral-oct-dic-20_TecNM.pdf" target="_blank"> 
+							Informe Trimestral Octubre-Diciembre de 2020 TecNM
+						</a> 
+					</div>
+					<div class='w-100 py-1 border-bottom'>
+						<span class='icon-file-pdf text-danger'></span>
+						<a href="doc_contraloria/Informe_Trimestral_jul-sep-20_TecNM.pdf" target="_blank"> 
+							Informe Trimestral Julio-Septiembre de 2020 TecNM 
 						</a> 
 					</div>
 				
@@ -482,12 +548,12 @@
 	</div>
 
     <!-- Quejas -->
-    <div class='container mx-0 m-md-auto collapse Ocultar Mostrar_Quejas' style="margin-bottom: 200px;">
+    <div class='container mx-0 m-md-auto collapse Ocultar Mostrar_Quejas' style="margin-bottom: 200px; font-family: 'Montserrat', sans-serif;">
 		<div class='row justify-content-center mx-4 mx-sm-0'>
 			
 			<div style="cursor:pointer;" class='col-12 h4 text-left text-white font-weight-bold mt-2 mt-md-0  py-1 bg-secundario' data-toggle='collapse' data-target='#Grupo4' aria-expanded='false'>
 				<span class='icon-menu'></span>
-				Quejas, Denuncias o Petición
+				Quejas, Denuncias, Peticiones o Irregularidades
 			</div>
 			
 			<div class='col-12 collapse show' id='Grupo4'>
@@ -564,15 +630,15 @@
 					Para presentar quejas y denuncias, por el posible incumplimiento de las obligaciones de los servidores públicos pueden realizarse a través del portal del Sistema de Denuncia Ciudadana, <a href='https://sidec.funcionpublica.gob.mx/#!/' target='_blank'>https://sidec.funcionpublica.gob.mx/#!/,</a> de la Secretaría de la Función Pública.
 					<br /><br />
 					•	La aplicación para teléfono celular "Denuncia ciudadana de la Corrupción".
-					<br />
+					<br /><br />
 					•	Vía telefónica: En el interior de la República al 800 11 28 700 y en la Ciudad de México, 55 2000 2000.
-					<br />
+					<br /><br />
 					•	Presencial: En el módulo 3 de la Secretaría de la Función Pública ubicado en Av. Insurgentes Sur 1735, PB, Guadalupe Inn, Álvaro Obregón, Código Postal 01020, Ciudad de México.
-					<br />
+					<br /><br />
 					•	Vía correspondencia: Envía tu escrito a la Dirección General de Denuncias e Investigaciones de la Secretaría de la Función Pública en Av. Insurgentes Sur No. 1735, Piso 2 Ala Norte, Guadalupe Inn, Álvaro Obregón, CP 01020, Ciudad de México. 
-					<br />
+					<br /><br />
 					•	Vía correo electrónico: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4c2f2322383e2d20233e252d3f232f252d200c2a39222f2523223c392e20252f2d622b232e62213462">[email&#160;protected]</a>
-					<br />
+					<br /><br />
 					•	Plataforma: Ciudadanos Alertadores Internos y Externos de la Corrupción. La plataforma de alertadores está diseñada para atender casos graves de corrupción y/o en los que se requiere confidencialidad: <a href='https://alertadores.funcionpublica.gob.mx' target='_blank'>https://alertadores.funcionpublica.gob.mx</a> 
 				</div>
 				
@@ -621,6 +687,13 @@
 				$(".Mostrar_Documento").collapse('show');
 				$(".accion").css({'color':'#fff','background':'#6576B4'});
 				$(".btn_Documentos").css({'color':'#fff','background':'#7D2C5A'});
+			});
+
+			$(".btn_Informes").click(function(){
+				$(".Ocultar").collapse('hide');
+				$(".Mostrar_Informe").collapse('show');
+				$(".accion").css({'color':'#fff','background':'#6576B4'});
+				$(".btn_Informes").css({'color':'#fff','background':'#7D2C5A'});
 			});
 			
 			$(".btn_Quejas").click(function(){
